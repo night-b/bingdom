@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(205, 199, 27);
+    padding: 30px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+}
+.hero{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsuD0O9o_IRPuy0VDg5VJ0jjw9FsuMHwByfYNyZtEM1A&s=10);
+    background-position:center ;
+    background-size: cover;
+    height: 90vh;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingdom Registration</title>
+    <link rel="stylesheet" href="sign.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5b99b9048d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+<section class="header">
+       <div class="logo">
+        <h1>
+            <a href="/project.html">Bingdom</a>
+        </h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="project.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+ </section>
+    <div class="signup-container">
+        <!-- Main Sign Up Box -->
+        <main class="signup-box">
+            <h1>Create account</h1>
+            
+            <form action="https://formsubmit.co/joshbb412@gmail.com" method="POST">
+                <!-- Customer Name  -->
+                <div class="form-group">
+                    <label for="customerName">Your name</label>
+                    <input type="text" id="customerName" name="customerName" placeholder="First and last name" required>
+                </div>
+
+                <!-- Email/Mobile Field -->
+              <div class="form-group">
+                <label for="contact">Email or Mobile Number</label>
+                <input
+                    type="text"
+                    id="contact"
+                    name="contact"
+                    placeholder="Enter email or phone number"
+                    required
+                 >
+                </div>
+
+                <!-- Password Field -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="At least 6 characters" minlength="6" required>
+                    <span class="info-text"><i>i</i> Passwords must be at least 6 characters.</span>
+                </div>
+
+                <!-- Re-enter Password Field -->
+                <div class="form-group">
+                    <label for="passwordCheck">Re-enter password</label>
+                    <input type="password" id="passwordCheck" name="passwordCheck" required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="continue-btn">
+                     Create your Bingdom account
+                </button>
+
+                 <input type="hidden" name="_subject" value="New Bingdom Registration">
+                 <input type="hidden" name="_captcha" value="false">
+                 <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+            </form>
+
+            <!-- Legal Disclaimers -->
+            <p class="legal-text">
+                By creating an account, you agree to Bingdom's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.
+            </p>
+
+            <hr class="divider">
+
+            <!-- Redirect to Sign-in -->
+            <div class="signin-redirect">
+                Already have an account? <a href="#">Sign in <span>&#9656;</span></a>
+            </div>
+        </main>
+
+        <!-- Footer Links -->
+        <footer class="signup-footer">
+            <div class="footer-links">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Help</a>
+            </div>
+        </footer>
+    </div>
+    <a href="">
+        <button class="btn" onclick="changeBackgroundColour()"> Refresh</button>
+    </a>
+</body>
+</html>
